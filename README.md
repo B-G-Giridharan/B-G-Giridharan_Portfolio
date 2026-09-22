@@ -6,4 +6,4 @@ This folder is a complete BG project. Everything the app needs is in these files
 
 # Techstacks 
 
-HTML|JS|CSS Responsive Web Design|
+HTML | JS | CSS Responsive Web Design|
