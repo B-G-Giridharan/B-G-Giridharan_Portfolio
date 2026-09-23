@@ -6,7 +6,7 @@
   const heroPhoto = $('#heroPhoto');
 
   if (heroPhoto) {
-    fetch('/profile.jpg.b64')
+    fetch('profile.jpg.b64')
       .then(r => r.text())
       .then(data => {
         heroPhoto.src = 'data:image/jpeg;base64,' + data.trim();
