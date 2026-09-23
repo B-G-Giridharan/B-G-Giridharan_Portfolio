@@ -69,3 +69,14 @@ main>.container,main>.container-fluid,main>[class*="container"]{width:100%!impor
   .room-stage{width:100%;max-width:100%}
   .project-dock{width:100%;max-width:100%}
 }
+
+@media (max-width:580px){
+  .modal{align-items:flex-start;overflow-y:auto;padding:12px 0}
+  .modal-card{width:calc(100% - 24px);max-height:calc(100svh - 24px);overflow-y:auto;padding:52px 22px 24px}
+  .modal-close{right:10px;top:7px}
+  .modal-top{margin-bottom:32px;gap:12px}
+  .modal-card h2{font-size:clamp(44px,13vw,64px)}
+  .modal-card>p:not(.eyebrow){font-size:17px}
+  .modal-footer{justify-content:stretch}
+  .modal-footer .btn{width:100%;max-width:none}
+}
